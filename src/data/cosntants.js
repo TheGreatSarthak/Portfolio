@@ -5,7 +5,7 @@ export const Bio = {
     "Full of zeal and creation in mind, I try to configure the perfect solution for every problem I come across. My objective is to grow more and more by absorbing as much knowledge as I can. I have the ability to translate business needs into technology requirements that supports the company's objectives.",
   github: "https://github.com/TheGreatSarthak",
   resume:
-    "https://drive.google.com/file/d/1WIuILuTYTmGtxB0eIhST0NaIrzYbNgJG/view?usp=sharing",
+    "https://drive.google.com/file/d/1h1w2-Wn3NaRxyxEEAAaJ4-MeaolcCrUt/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/sarthaksharma2232/",
   youtube: "https://www.youtube.com/@sarthak2232",
   gmail: "https://mail.google.com/mail/?view=cm&fs=1&to=sarthak2232@gmail.com",
