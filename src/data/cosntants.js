@@ -21,14 +21,14 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "TypeScript",
+        name: "Redux",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+          "https://everyday.codes/wp-content/uploads/2020/01/0-U2DmhXYumRyXH6X1.png",
       },
       {
-        name: "Next Js",
+        name: "Vite Js",
         image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
       },
       {
         name: "HTML",
@@ -43,6 +43,16 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      },
+      {
+        name: "Next Js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       },
       {
         name: "jQuery",
@@ -151,6 +161,10 @@ export const skills = [
       {
         name: "MongoDB",
         image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+      },
+      {
+        name: "JSON",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/768px-JSON_vector_logo.svg.png",
       },
       {
         name: "Firebase",
@@ -295,7 +309,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
     title: "React Chat App",
     date: "December 2023",
     description:
@@ -311,11 +325,30 @@ export const projects = [
       "Chat Engine",
     ],
     category: "web app",
-    github: "https://github.com/TheGreatSarthak/React-Chat-App",
-    //webapp: "https://github.com/TheGreatSarthak/React-Chat-App",
+    github: "https://github.com/TheGreatSarthak/video-saver",
+    //webapp: "https://github.com/TheGreatSarthak/video-saver",
   },
   {
-    id: 0,
+    id: 1,
+    title: "Video Saver",
+    date: "January 2024",
+    description:
+      "This application is a personal youtube video saver where you can save, edit and delete your favorite youtube videos. This application is build with combination of Reactjs and Vitejs. This application is build to practice redux functionality efficiently.",
+    image:
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/VideoSaver.png",
+    tags: [
+      "React Js",
+      "Redux",
+      "JSON server",
+      "React Router",
+      "Vite Js",
+    ],
+    category: "web app",
+    github: "https://github.com/TheGreatSarthak/video-saver",
+    //webapp: "https://github.com/TheGreatSarthak/video-saver",
+  },
+  {
+    id: 2,
     title: "Keeper App",
     date: "December 2023",
     description:
@@ -328,7 +361,7 @@ export const projects = [
     webapp: "https://scintillating-bunny-5295f6.netlify.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "React To Do List",
     date: "November 2023",
     description:
@@ -341,11 +374,11 @@ export const projects = [
     webapp: "https://steady-kringle-a34f99.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "To Do List",
     date: "October 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "A simple beautiful todo list application.  A beginner project to learn MERN stack. This application offers you to add your daily tasks and remove them from list when completed.",
     image:
       "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/TodoList.png",
     tags: [
@@ -359,108 +392,56 @@ export const projects = [
       "Mongoose",
       "Lodash",
     ],
-    category: "web app",
+    category: "other",
     github: "https://github.com/TheGreatSarthak/ToDoList",
     //webapp: "https://github.com/TheGreatSarthak/ToDoList",
   },
   {
-    id: 3,
-    title: "Favorite Meals",
-    date: "August 2022",
-    description:
-      "This application offers you to save your favorite meals under different categories and cuisines. This application is made with Flutter and Firebase. This application is still in development mode.",
-    image:
-      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/MealApp.png",
-    tags: ["Dart", "Flutter"],
-    category: "android app",
-    github: "https://github.com/TheGreatSarthak/Favorite-Meals",
-    //webapp: "https://github.com/TheGreatSarthak/Favorite-Meals",
-  },
-  {
-    id: 10,
-    title: "Shop App",
-    date: "October 2022",
-    description:
-      "This application offers frontend for an e-commerce application. This application is made with Flutter and Firebase. This application is still in development mode.",
-    image:
-      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/ShopApp.png",
-    tags: ["Dart", "Flutter"],
-    category: "android app",
-    github: "https://github.com/TheGreatSarthak/Shop-App",
-    //webapp: "https://github.com/TheGreatSarthak/Shop-App",
-  },
-  {
-    id: 4,
-    title: "AICTE Clone",
-    date: "November 2022 - December 2022",
-    description:
-      "A functional application for AICTE website. There is a lot of data or vast information available on AICTE website which calls for an emergent need of a source that just convey the crucial information precisely. Thus, this applcation is built to save time and hectic searching on web to find out any information related to AICTE.",
-    image:
-      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/AICTE.png",
-    tags: ["Dart", "Firebase", "Flutter"],
-    category: "android app",
-    github: "https://github.com/TheGreatSarthak/AICTE-Clone",
-    //webapp: "https://github.com/TheGreatSarthak/AICTE-Clone",
-    member: [
-      {
-        name: "Sarthak Sharma",
-        img: "https://media.licdn.com/dms/image/C4D03AQHSunnLgLaksg/profile-displayphoto-shrink_400_400/0/1606905736325?e=1710374400&v=beta&t=IjCVpUuhjUxX8oST5ONdr3dyyW2h1hyu2zme4dWr3cc",
-        linkedin: "https://www.linkedin.com/in/sarthaksharma2232/",
-      },
-      {
-        name: "Vikas",
-        img: "https://media.licdn.com/dms/image/D4D03AQE0SEPv6TPiMg/profile-displayphoto-shrink_400_400/0/1665018797325?e=1710374400&v=beta&t=QIgnibWE9kgbGeOPLeggiIqZ2bco72v-HXqZ_dGTgmI",
-        linkedin: "https://www.linkedin.com/in/vikas-dhaka/",
-      },
-      {
-        name: "Shanu Batra",
-        img: "https://media.licdn.com/dms/image/D4D35AQEkZQpFwKcmVw/profile-framedphoto-shrink_400_400/0/1698642607039?e=1705741200&v=beta&t=mxbI924kvoPBxRuRKLnTI5sZIuaz06xb2-1lHYVRaNw",
-        linkedin: "https://www.linkedin.com/in/shanu-batra-083b48228/",
-      },
-    ],
-  },
-  {
     id: 5,
-    title: "Expense Planner",
-    date: "August 2022",
+    title: "Personal Diary",
+    date: "October 2023",
     description:
-      "This application offers you to track your weekly expenses. This application is made with Flutter and Firebase. Application shows a bar chart that divides your expenses throughout week, it then shows you the history of transactions and at bottom there is an add button to add a transaction with title, amount and date. This application is still in development mode.",
+      "A web application to post and store your ideas as similar to writing them in your personal diary. A beginner project to test MongoDB functionality with Express Js.",
     image:
-      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/ExpensePlanner.png",
-    tags: ["Dart", "Flutter"],
-    category: "android app",
-    github: "https://github.com/TheGreatSarthak/Expense-Planner",
-    //webapp: "https://github.com/TheGreatSarthak/Expense-Planner",
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/PersonalDiary.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "EJS",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Mongoose",
+      "Lodash",
+    ],
+    category: "other",
+    github: "https://github.com/TheGreatSarthak/Personal-Diary",
+    webapp: "https://wild-pink-kit.cyclic.app/",
   },
   {
     id: 6,
-    title: "Menufy",
-    date: "April 2022 - May 2022",
+    title: "Secrets",
+    date: "November 2023",
     description:
-      "A food ordering application while dining at a restaurant. This application is made with Flutter and Firebase. This application is still in development mode. Application offers you to select your restaurant and available table at the restaurant, then add food to your cart from menu and checkout, with accessibilty of meal preparation time and adding more items to the bill on spot. Enjoy hassle-free dine-in.",
+      "This application is to post your secrets under your account. In this application I have tried different levels of Authentication and Security using various npm packages. I have experimented 6 levels of authenticaton from basic to advanced including encryption, hashing, salting, cookies-sessions and third party open authentication.",
     image:
-      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/Menufy.png",
-    tags: ["Dart", "Flutter", "Firebase", "Google Auth", "Firestore"],
-    category: "android app",
-    github: "https://github.com/TheGreatSarthak/Menufy",
-    //webapp: "https://github.com/TheGreatSarthak/Menufy",
-    member: [
-      {
-        name: "Sarthak Sharma",
-        img: "https://media.licdn.com/dms/image/C4D03AQHSunnLgLaksg/profile-displayphoto-shrink_400_400/0/1606905736325?e=1710374400&v=beta&t=IjCVpUuhjUxX8oST5ONdr3dyyW2h1hyu2zme4dWr3cc",
-        linkedin: "https://www.linkedin.com/in/sarthaksharma2232/",
-      },
-      {
-        name: "Vikas",
-        img: "https://media.licdn.com/dms/image/D4D03AQE0SEPv6TPiMg/profile-displayphoto-shrink_400_400/0/1665018797325?e=1710374400&v=beta&t=QIgnibWE9kgbGeOPLeggiIqZ2bco72v-HXqZ_dGTgmI",
-        linkedin: "https://www.linkedin.com/in/vikas-dhaka/",
-      },
-      {
-        name: "Shanu Batra",
-        img: "https://media.licdn.com/dms/image/D4D35AQEkZQpFwKcmVw/profile-framedphoto-shrink_400_400/0/1698642607039?e=1705741200&v=beta&t=mxbI924kvoPBxRuRKLnTI5sZIuaz06xb2-1lHYVRaNw",
-        linkedin: "https://www.linkedin.com/in/shanu-batra-083b48228/",
-      },
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/Secrets.png",
+    tags: [
+      "Bootstrap",
+      "JavaScript",
+      "EJS",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Mongoose",
+      "Passport Js",
+      "Bcrypt",
+      "md5",
     ],
+    category: "other",
+    github: "https://github.com/TheGreatSarthak/Authentication-Project",
+    //webapp: "https://github.com/TheGreatSarthak/Authentication-Project",
   },
   {
     id: 7,
@@ -487,60 +468,112 @@ export const projects = [
       },
       {
         name: "Shanu Batra",
-        img: "https://media.licdn.com/dms/image/D4D35AQEkZQpFwKcmVw/profile-framedphoto-shrink_400_400/0/1698642607039?e=1705741200&v=beta&t=mxbI924kvoPBxRuRKLnTI5sZIuaz06xb2-1lHYVRaNw",
+        img: "https://media.licdn.com/dms/image/D4D35AQEkZQpFwKcmVw/profile-framedphoto-shrink_400_400/0/1698642607039?e=1706446800&v=beta&t=4Y2pnsVI8FOhcYGpfJprVvTDbURZkBhQ4U0rln6N08Q",
         linkedin: "https://www.linkedin.com/in/shanu-batra-083b48228/",
       },
     ],
   },
   {
     id: 8,
-    title: "Personal Diary",
-    date: "October 2023",
+    title: "Menufy",
+    date: "April 2022 - May 2022",
     description:
-      "A web application to post and store your ideas as similar to writing them in your personal diary. A beginner project to test MongoDB functionality with Express Js.",
+      "A food ordering application while dining at a restaurant. This application is made with Flutter and Firebase. This application is still in development mode. Application offers you to select your restaurant and available table at the restaurant, then add food to your cart from menu and checkout, with accessibilty of meal preparation time and adding more items to the bill on spot. Enjoy hassle-free dine-in.",
     image:
-      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/PersonalDiary.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "EJS",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Mongoose",
-      "Lodash",
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/Menufy.png",
+    tags: ["Dart", "Flutter", "Firebase", "Google Auth", "Firestore"],
+    category: "android app",
+    github: "https://github.com/TheGreatSarthak/Menufy",
+    //webapp: "https://github.com/TheGreatSarthak/Menufy",
+    member: [
+      {
+        name: "Sarthak Sharma",
+        img: "https://media.licdn.com/dms/image/C4D03AQHSunnLgLaksg/profile-displayphoto-shrink_400_400/0/1606905736325?e=1710374400&v=beta&t=IjCVpUuhjUxX8oST5ONdr3dyyW2h1hyu2zme4dWr3cc",
+        linkedin: "https://www.linkedin.com/in/sarthaksharma2232/",
+      },
+      {
+        name: "Vikas",
+        img: "https://media.licdn.com/dms/image/D4D03AQE0SEPv6TPiMg/profile-displayphoto-shrink_400_400/0/1665018797325?e=1710374400&v=beta&t=QIgnibWE9kgbGeOPLeggiIqZ2bco72v-HXqZ_dGTgmI",
+        linkedin: "https://www.linkedin.com/in/vikas-dhaka/",
+      },
+      {
+        name: "Shanu Batra",
+        img: "https://media.licdn.com/dms/image/D4D35AQEkZQpFwKcmVw/profile-framedphoto-shrink_400_400/0/1698642607039?e=1706446800&v=beta&t=4Y2pnsVI8FOhcYGpfJprVvTDbURZkBhQ4U0rln6N08Q",
+        linkedin: "https://www.linkedin.com/in/shanu-batra-083b48228/",
+      },
     ],
-    category: "web app",
-    github: "https://github.com/TheGreatSarthak/Personal-Diary",
-    webapp: "https://wild-pink-kit.cyclic.app/",
   },
   {
-    id: 11,
-    title: "Secrets",
-    date: "November 2023",
+    id: 9,
+    title: "AICTE Clone",
+    date: "November 2022 - December 2022",
     description:
-      "This application is to post your secrets under your account. In this application I have tried different levels of Authentication and Security using various npm packages. I have experimented 6 levels of authenticaton from basic to advanced including encryption, hashing, salting, cookies-sessions and third party open authentication.",
+      "A functional application for AICTE website. There is a lot of data or vast information available on AICTE website which calls for an emergent need of a source that just convey the crucial information precisely. Thus, this applcation is built to save time and hectic searching on web to find out any information related to AICTE.",
     image:
-      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/Secrets.png",
-    tags: [
-      "Bootstrap",
-      "JavaScript",
-      "EJS",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Mongoose",
-      "Passport Js",
-      "Bcrypt",
-      "md5",
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/AICTE.png",
+    tags: ["Dart", "Firebase", "Flutter"],
+    category: "android app",
+    github: "https://github.com/TheGreatSarthak/AICTE-Clone",
+    //webapp: "https://github.com/TheGreatSarthak/AICTE-Clone",
+    member: [
+      {
+        name: "Sarthak Sharma",
+        img: "https://media.licdn.com/dms/image/C4D03AQHSunnLgLaksg/profile-displayphoto-shrink_400_400/0/1606905736325?e=1710374400&v=beta&t=IjCVpUuhjUxX8oST5ONdr3dyyW2h1hyu2zme4dWr3cc",
+        linkedin: "https://www.linkedin.com/in/sarthaksharma2232/",
+      },
+      {
+        name: "Vikas",
+        img: "https://media.licdn.com/dms/image/D4D03AQE0SEPv6TPiMg/profile-displayphoto-shrink_400_400/0/1665018797325?e=1710374400&v=beta&t=QIgnibWE9kgbGeOPLeggiIqZ2bco72v-HXqZ_dGTgmI",
+        linkedin: "https://www.linkedin.com/in/vikas-dhaka/",
+      },
+      {
+        name: "Shanu Batra",
+        img: "https://media.licdn.com/dms/image/D4D35AQEkZQpFwKcmVw/profile-framedphoto-shrink_400_400/0/1698642607039?e=1706446800&v=beta&t=4Y2pnsVI8FOhcYGpfJprVvTDbURZkBhQ4U0rln6N08Q",
+        linkedin: "https://www.linkedin.com/in/shanu-batra-083b48228/",
+      },
     ],
-    category: "web app",
-    github: "https://github.com/TheGreatSarthak/Authentication-Project",
-    //webapp: "https://github.com/TheGreatSarthak/Authentication-Project",
+  },
+  {
+    id: 10,
+    title: "Expense Planner",
+    date: "August 2022",
+    description:
+      "This application offers you to track your weekly expenses. This application is made with Flutter and Firebase. Application shows a bar chart that divides your expenses throughout week, it then shows you the history of transactions and at bottom there is an add button to add a transaction with title, amount and date. This application is still in development mode.",
+    image:
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/ExpensePlanner.png",
+    tags: ["Dart", "Flutter"],
+    category: "android app",
+    github: "https://github.com/TheGreatSarthak/Expense-Planner",
+    //webapp: "https://github.com/TheGreatSarthak/Expense-Planner",
   },
   {
     id: 12,
+    title: "Favorite Meals",
+    date: "August 2022",
+    description:
+      "This application offers you to save your favorite meals under different categories and cuisines. This application is made with Flutter and Firebase. This application is still in development mode.",
+    image:
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/MealApp.png",
+    tags: ["Dart", "Flutter"],
+    category: "android app",
+    github: "https://github.com/TheGreatSarthak/Favorite-Meals",
+    //webapp: "https://github.com/TheGreatSarthak/Favorite-Meals",
+  },
+  {
+    id: 11,
+    title: "Shop App",
+    date: "October 2022",
+    description:
+      "This application offers frontend for an e-commerce application. This application is made with Flutter and Firebase. This application is still in development mode.",
+    image:
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/ShopApp.png",
+    tags: ["Dart", "Flutter"],
+    category: "android app",
+    github: "https://github.com/TheGreatSarthak/Shop-App",
+    //webapp: "https://github.com/TheGreatSarthak/Shop-App",
+  },
+  {
+    id: 13,
     title: "Pathak",
     date: "March 2022",
     description:
