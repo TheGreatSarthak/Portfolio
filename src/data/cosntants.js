@@ -86,6 +86,62 @@ export const skills = [
     ],
   },
   {
+    title: "Backend",
+    skills: [
+      {
+        name: "Node Js",
+        image: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
+      },
+      {
+        name: "Express Js",
+        image: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
+      },
+      //   {
+      //     name: "Graph Ql",
+      //     image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+      //   },
+      //   {
+      //     name: "Python",
+      //     image:
+      //       "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      //   },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      //   {
+      //     name: "Postgresql",
+      //     image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      //   },
+      {
+        name: "MongoDB",
+        image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+      },
+      {
+        name: "Mongoose",
+        image: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png",
+      },
+      {
+        name: "NextAuth",
+        image: "https://next-auth.js.org/img/logo/logo-sm.png",
+      },
+      {
+        name: "JSON",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/768px-JSON_vector_logo.svg.png",
+      },
+      {
+        name: "JWT",
+        image: "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
+      },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+    ],
+  },
+  {
     title: "Development",
     skills: [
       {
@@ -130,49 +186,6 @@ export const skills = [
     ],
   },
   {
-    title: "Backend",
-    skills: [
-      {
-        name: "Node Js",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
-      },
-      {
-        name: "Express Js",
-        image: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
-      },
-      //   {
-      //     name: "Graph Ql",
-      //     image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-      //   },
-      //   {
-      //     name: "Python",
-      //     image:
-      //       "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      //   },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      //   {
-      //     name: "Postgresql",
-      //     image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      //   },
-      {
-        name: "MongoDB",
-        image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
-      },
-      {
-        name: "JSON",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/768px-JSON_vector_logo.svg.png",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-    ],
-  },
-  {
     title: "Others",
     skills: [
       {
@@ -202,6 +215,11 @@ export const skills = [
       {
         name: "Postman",
         image: "https://cdn.worldvectorlogo.com/logos/postman.svg",
+      },
+      {
+        name: "Google Cloud Platform",
+        image:
+          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
       },
       //   {
       //     name: "Adobe XD",
@@ -310,6 +328,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Promptopia",
+    date: "January 2024",
+    description:
+      "This is a blog application offers user to enter prompts for AI tools. This application is build with Nextjs. All CRUD(Create, Read, Update and Delete) features are supported by the application. User can search and read all the prompts posted by other users and even sign-in and post his/her prompts.",
+    image:
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/share-prompts.png",
+    tags: [
+      "Next Js",
+      "React Js",
+      "MongoDB",
+      "Mongoose",
+      "Next-Auth",
+      "Bcrypt",
+      "Google OAuth",
+      "Tailwind CSS",
+    ],
+    category: "web app",
+    github: "https://github.com/TheGreatSarthak/share-prompts",
+    webapp: "https://share-prompts-flame.vercel.app/",
+  },
+  {
+    id: 1,
     title: "React Chat App",
     date: "December 2023",
     description:
@@ -329,26 +369,20 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/video-saver",
   },
   {
-    id: 1,
+    id: 2,
     title: "Video Saver",
     date: "January 2024",
     description:
       "This application is a personal youtube video saver where you can save, edit and delete your favorite youtube videos. This application is build with combination of Reactjs and Vitejs. This application is build to practice redux functionality efficiently.",
     image:
       "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/VideoSaver.png",
-    tags: [
-      "React Js",
-      "Redux",
-      "JSON server",
-      "React Router",
-      "Vite Js",
-    ],
+    tags: ["React Js", "Redux", "JSON server", "React Router", "Vite Js"],
     category: "web app",
     github: "https://github.com/TheGreatSarthak/video-saver",
     //webapp: "https://github.com/TheGreatSarthak/video-saver",
   },
   {
-    id: 2,
+    id: 3,
     title: "Keeper App",
     date: "December 2023",
     description:
@@ -361,7 +395,7 @@ export const projects = [
     webapp: "https://scintillating-bunny-5295f6.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "React To Do List",
     date: "November 2023",
     description:
@@ -374,7 +408,7 @@ export const projects = [
     webapp: "https://steady-kringle-a34f99.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "To Do List",
     date: "October 2023",
     description:
@@ -397,7 +431,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/ToDoList",
   },
   {
-    id: 5,
+    id: 6,
     title: "Personal Diary",
     date: "October 2023",
     description:
@@ -420,7 +454,7 @@ export const projects = [
     webapp: "https://wild-pink-kit.cyclic.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Secrets",
     date: "November 2023",
     description:
@@ -444,7 +478,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/Authentication-Project",
   },
   {
-    id: 7,
+    id: 8,
     title: "TakeNGo",
     date: "April 2023 - May 2023",
     description:
@@ -474,7 +508,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Menufy",
     date: "April 2022 - May 2022",
     description:
@@ -504,7 +538,7 @@ export const projects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "AICTE Clone",
     date: "November 2022 - December 2022",
     description:
@@ -534,7 +568,7 @@ export const projects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Expense Planner",
     date: "August 2022",
     description:
@@ -560,7 +594,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/Favorite-Meals",
   },
   {
-    id: 11,
+    id: 13,
     title: "Shop App",
     date: "October 2022",
     description:
@@ -573,7 +607,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/Shop-App",
   },
   {
-    id: 13,
+    id: 14,
     title: "Pathak",
     date: "March 2022",
     description:
