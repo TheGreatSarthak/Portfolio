@@ -5,7 +5,7 @@ export const Bio = {
     "Full of zeal and creation in mind, I try to configure the perfect solution for every problem I come across. My objective is to grow more and more by absorbing as much knowledge as I can. I have the ability to translate business needs into technology requirements that supports the company's objectives.",
   github: "https://github.com/TheGreatSarthak",
   resume:
-    "https://drive.google.com/file/d/1h1w2-Wn3NaRxyxEEAAaJ4-MeaolcCrUt/view?usp=drive_link",
+    "https://drive.google.com/file/d/1c2agxyHH7PdRwSf0sHCnIkiYVU-oYxxn/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sarthaksharma2232/",
   youtube: "https://www.youtube.com/@sarthak2232",
   gmail: "https://mail.google.com/mail/?view=cm&fs=1&to=sarthak2232@gmail.com",
@@ -120,7 +120,8 @@ export const skills = [
       },
       {
         name: "Mongoose",
-        image: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png",
+        image:
+          "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png",
       },
       {
         name: "NextAuth",
@@ -134,6 +135,11 @@ export const skills = [
       {
         name: "JWT",
         image: "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
+      },
+      {
+        name: "Axios",
+        image:
+          "https://user-images.githubusercontent.com/43313420/105893220-1bae8780-6013-11eb-87be-eeac845ecc6f.png",
       },
       {
         name: "Firebase",
@@ -327,7 +333,31 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 15,
+    title: "Sociopedia",
+    date: "January 2024",
+    description:
+      "This is a social media application offering users to share posts on platform. Users can register/login and like on each other's posts and can make them friends. Application offers both light and dark theme user interface.",
+    image:
+      "https://raw.githubusercontent.com/TheGreatSarthak/Project-Images/master/Sociopedia.png",
+    tags: [
+      "React Js",
+      "Redux",
+      "Formik",
+      "Express Js",
+      "MongoDB",
+      "Mongoose",
+      "Multer",
+      "Bcrypt",
+      "JWT",
+      "Material-UI",
+    ],
+    category: "web app",
+    github: "https://github.com/TheGreatSarthak/Sociopedia",
+    webapp: "https://sociopedia-frontend-peach.vercel.app/",
+  },
+  {
+    id: 14,
     title: "Promptopia",
     date: "January 2024",
     description:
@@ -349,7 +379,7 @@ export const projects = [
     webapp: "https://share-prompts-flame.vercel.app/",
   },
   {
-    id: 1,
+    id: 13,
     title: "React Chat App",
     date: "December 2023",
     description:
@@ -369,7 +399,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/video-saver",
   },
   {
-    id: 2,
+    id: 12,
     title: "Video Saver",
     date: "January 2024",
     description:
@@ -382,7 +412,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/video-saver",
   },
   {
-    id: 3,
+    id: 11,
     title: "Keeper App",
     date: "December 2023",
     description:
@@ -395,7 +425,7 @@ export const projects = [
     webapp: "https://scintillating-bunny-5295f6.netlify.app/",
   },
   {
-    id: 4,
+    id: 10,
     title: "React To Do List",
     date: "November 2023",
     description:
@@ -408,7 +438,7 @@ export const projects = [
     webapp: "https://steady-kringle-a34f99.netlify.app/",
   },
   {
-    id: 5,
+    id: 9,
     title: "To Do List",
     date: "October 2023",
     description:
@@ -431,7 +461,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/ToDoList",
   },
   {
-    id: 6,
+    id: 8,
     title: "Personal Diary",
     date: "October 2023",
     description:
@@ -478,7 +508,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/Authentication-Project",
   },
   {
-    id: 8,
+    id: 6,
     title: "TakeNGo",
     date: "April 2023 - May 2023",
     description:
@@ -508,7 +538,7 @@ export const projects = [
     ],
   },
   {
-    id: 9,
+    id: 5,
     title: "Menufy",
     date: "April 2022 - May 2022",
     description:
@@ -538,7 +568,7 @@ export const projects = [
     ],
   },
   {
-    id: 10,
+    id: 4,
     title: "AICTE Clone",
     date: "November 2022 - December 2022",
     description:
@@ -568,7 +598,7 @@ export const projects = [
     ],
   },
   {
-    id: 11,
+    id: 3,
     title: "Expense Planner",
     date: "August 2022",
     description:
@@ -581,7 +611,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/Expense-Planner",
   },
   {
-    id: 12,
+    id: 2,
     title: "Favorite Meals",
     date: "August 2022",
     description:
@@ -594,7 +624,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/Favorite-Meals",
   },
   {
-    id: 13,
+    id: 1,
     title: "Shop App",
     date: "October 2022",
     description:
@@ -607,7 +637,7 @@ export const projects = [
     //webapp: "https://github.com/TheGreatSarthak/Shop-App",
   },
   {
-    id: 14,
+    id: 0,
     title: "Pathak",
     date: "March 2022",
     description:
